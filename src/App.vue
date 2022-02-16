@@ -1,16 +1,21 @@
 <template>
   <Base></Base>
+  <hr>
   <TestComponent></TestComponent>
+  <hr>
+  <CompositionApi></CompositionApi>
 </template>
 
 <script>
 import Base from './components/Base'
 import TestComponent from './components/TestComponent.vue'
+import CompositionApi from './components/CompositionApi.vue'
 export default {
   name: 'App',
   components: {
     Base,
-    TestComponent
+    TestComponent,
+    CompositionApi
   }
 }
 </script>
